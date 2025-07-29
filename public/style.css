@@ -1,0 +1,32 @@
+header{
+    background-color: rgb(30, 64, 175);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titre{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 20px;
+
+}
+
+.titre img{
+    width: 15%;
+    height: 15%;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+}

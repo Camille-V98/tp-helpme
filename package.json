@@ -3,15 +3,15 @@
     "dotenv": "^17.2.1",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
+    "jest": "^30.0.5",
     "nodemon": "^3.1.10"
   },
   "name": "tp-helpme",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "nodemon app.js"
-
   },
   "author": "",
   "license": "ISC",
